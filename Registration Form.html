@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration & Login Forms</title>
+</head>
+<body>
+
+    <h1>Course Registration Form</h1>
+    <!-- The registration form with more than 8 input fields [1, 8] -->
+    <form action="/register" method="POST">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="html">HTML Basics</option>
+            <option value="css">CSS Styling</option>
+            <option value="js">JavaScript Fundamentals</option>
+        </select><br><br>
+
+        <label for="address">Mailing Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="graduationYear">Graduation Year:</label>
+        <input type="number" id="graduationYear" name="graduationYear" min="1990" max="2025"><br><br>
+
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the terms and conditions.
+        </label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <hr>
+
+    <h1>Login Form</h1>
+    <!-- The separate login form [3, 7] -->
+    <form action="/login" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="loginPassword" required><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
+</body>
+</html>
