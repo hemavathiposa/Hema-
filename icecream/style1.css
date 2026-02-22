@@ -1,0 +1,163 @@
+        nav{
+            background-color: darkblue;
+            padding:10px;
+            
+            
+
+        }
+        a{
+            color:white;
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 150px;
+        }
+        a:hover{
+            font-size: 15px;
+            background-color: black;
+            padding: 10px;
+        }
+        .conatiner{
+            width: 1515px;
+            height: 1000px;
+            
+            background-image: url("i.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .aboutus{
+            
+            position: relative;
+            top: 50px;
+            left: 650px;
+            background-color: darkblue;
+            max-width: 200px;
+            text-align: center;
+            color: white;
+        }
+        .row{
+            display: flex;
+            width: 1510px;
+            height: 500px;
+        
+            margin-top: 60px;
+        }
+        .about-us{
+            color: black;
+            margin-top: 110px;
+            text-align: justify;
+            padding: 15px;
+            background-color: darkblue;
+            color: white;
+            margin-right: 30px;
+            border-radius: 3%;
+        }
+        .icecream-world {
+            margin-top: 100px;
+            background-color: darkblue;
+            max-width: 250px;
+            text-align: center;
+            color: white;
+
+        }
+        .row1,
+        .row2 {
+            display: flex;
+            width: 1450px;
+            height: 600px;
+            
+            margin-left: 30px;
+            margin-top: 30px;
+            
+        }
+        .col1,
+        .col2,
+        .col3,
+        .col4 {
+            height: 600px;
+            width: 250px;
+            margin-left: 85px;
+            border: 2px dashed green;
+        border-radius: 30px;
+            
+        }
+        .content {
+            padding: 10px;
+            text-align: justify;
+
+        }
+        .learn-btn{
+            color: white;
+            background-color: darkblue;
+            margin-left:40px;
+            font-size: 20px;
+            padding: 10px;
+
+        }
+        .cont{
+            color:white;
+            text-align: center;
+            margin-top:80px ;
+            background-color: darkblue;
+            max-width: 300px;
+            margin-left: 550px;
+            padding: 10px;
+        }
+        .form-box {
+            width: 400px;
+            height: 350px;
+            border: 1px solid darkblue;
+            margin-left: 500px;
+        background-color: burlywood;
+            border-radius: 30px;
+
+        }
+        form {
+            padding: 30px;
+        }
+        input {
+            width: 200px;
+            height: 50px;
+        }
+        .btn {
+            color: white;
+            background-color: darkblue;
+            padding: 10px;
+            position: relative;
+            left: 140px;
+            top:20px;
+
+        }
+        .shops {
+            
+            height: 300px;
+            margin-top: 20px;
+        }
+        .footer {
+            height: 350px;
+            background-color: darkblue;
+            position: relative;
+            top:100px;
+            display: flex;
+        }
+        h4 {
+            color: white;
+            margin-left: 30px;
+        }
+        .info {
+            margin-left: 300px;
+            margin-top: 10px;
+            color: white;
+        }
+        .location {
+            padding: 5px;
+            margin-top: 15px;
+            margin-left: 300px;
+        }
+        .icons {
+            margin-left: 10px;
+
+        }
+        .icons:hover {
+            background-color: black;
+        }
+

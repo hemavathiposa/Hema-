@@ -1,0 +1,52 @@
+h1 {
+    color: cornflowerblue;
+    font-weight: bolder;
+    text-align: center;
+}
+.form {
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid cornflowerblue;
+    box-shadow: 0px 0px 15px rgb(0,0,0.2);
+    
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    outline: 1px dashed darkblue;
+
+}
+label {
+    color: black;
+    font-weight: bolder;
+}
+table {
+    width: 100%;
+}
+button{
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: blue;
+}
+h3{
+    
+    padding: 10px;
+    
+}
+h3 a {
+    color: black;
+    
+}
+h3 a:hover{
+    color: red;
+}
