@@ -10,32 +10,48 @@
     <a href="icecream.html"><img src="home.png" height="30px" width="30px"></a>
     <h1>Register Form</h1>
     <div class="form">
-        <form action="">
+    <form action="" method="post" onsubmit="return Formvalidation();"></form>
             <table>
                 <tr>
-                    <th><label for="Name">Enter Your Name</label></th>
-                    <th><input type="text" id="Name"name="Name" required/></th>
+                    <th><label for="FullName">Enter Your FullName</label></th>
+                    <th><input type="text" id="FullName"name="FullName" onkeyup="fullnameValidation()" required/></th>
+                    <th><span id="FullNameError"></span></th>
+                </tr>
+                <tr>
+                    <th><label for="Age">Enter Your Age</label></th>
+                    <th><input type="Number" id="Age"name="Age" onkeyup="agevalidation()"required/></th>
+                    <th><span id="AgeError"></span></th>
+
                 </tr>
                 <tr>
                     <th><label for="phonenumber">Enter Your Phone Number</label></th>
-                    <th><input type="Number" id="phonenumber"name="phonenumber" required/></th>
+
+
+                    <th><input type="Number" id="phonenumber"name="phonenumber" onkeyup="phonenumbervalidation()" required/></th>
+                    <th><span id="phonenumberError"></span></th>
                 </tr>
                 <tr>
-                    <th><label for="Email">Enter Your Phone Email</label></th>
-                    <th><input type="text" id="Email"name="Email" required/></th>
+                    <th><label for="Email">Enter Your  Email</label></th>
+
+                    <th><input type="text" id="Email"name="Email" onkeyup="emailValidation()"/></th>
+                    <th><span id="EmailError"></span></th>
                 </tr>
                 
                 <tr>
                 
                     <th><label for="Password">Enter Your Password</label></th>
-                    <th><input type="Password" id="Password"name="Password" required/></th>
+
+                    <th><input type="Password" id="Password"name="Password" onkeyup="passwordvalidation()"/></th>
+                    <th><span id="PasswordError"></span></th>
                 </tr>
                 <tr>
                     <th><button type="submit">Register</button></th>
+                    <th><span id="formerror"></span></th>
                     <th><h3>If you have account please <a href="login.html">Login</a>Here</h3></th>
                 </tr>
             </table>
         </form>
+        <script src="index.js"></script>
     </div>
     
 </body>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icecream world</title>
+<link rel="stylesheet"href="style1.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<nav>
+    <a href="">home</a>
+    <a href="">about</a>
+    <a href="">icecream world</a>
+    <a href="">contact us</a>
+    <a href="">login</a>
+    <button onclick="darkMode()"><img src="dark mode.png" width="50px" height="40px"></button>
+</nav>
+<h1>hello icecream-world</h1>
+<div id="popup">
+  <h2>  offer available on top 50%🥳</h2>
+</div>
+</body>
+<script>
+    popup=document.getElementById("popup");
+    window.onload=()=>{
+        setTimeout(() => {
+            popup.style.display="block";
+            setTimeout(()=>{
+                popup.style.display="none";
+            },3000);
+        },3000);
+    };
+</script>
+</html>
